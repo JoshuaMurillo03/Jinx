@@ -24,3 +24,6 @@ hs_err_pid*
 *.xml
 *.bin
 *.lock
+
+# Config files and private data folders
+ignore/
