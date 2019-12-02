@@ -37,3 +37,9 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile 'net.dv8tion:JDA:4.0.0_69'
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class' : 'me.iblitzkriegi.jinx.Jinx'
+    }
+}
